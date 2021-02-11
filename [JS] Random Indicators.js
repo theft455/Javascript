@@ -33,7 +33,7 @@ function main() {
 
 		var x = render_get_screen_size()[0]/2
 		var y = render_get_screen_size()[1]/2
-		var font = render_get_font("smallest_pixel-7.ttf", 10, true)
+		var font = render_get_font("smallest_pixel-7.ttf", 10, false)
 		var textValue = ui_get_string(text)
 		var color = ui_get_color(accent)
 		var gray = [75, 75, 75, 255]
